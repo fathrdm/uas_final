@@ -125,7 +125,6 @@ main {
   display: flex;
   width: 80px;
   height: 80px;
-  padding: 0 20px;
 }
 
 .dashboard-icon-img {
@@ -351,7 +350,7 @@ main {
 /* YANG AKANNNNNNNNNNNNNNNN ANDAAAAAAAAAAAAAAAAAAAAAAAAA BUTUHHHHHHHHHHHHHHHHHHHHHHHHHHHKANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN */
 .services-title {
   color: #94a3b8;
-  text-align: center;
+  text-align: left;
   margin-top: 32px;
   font: 400 16px Poppins, sans-serif;
 }
@@ -362,16 +361,15 @@ main {
 
 
 .services-row {
+  margin-top: 24px;
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
 }
 .services-row-response {
   position: relative;
   display: flex;
   gap: 24px;
-  padding: 10px;
 }
 
 
@@ -439,6 +437,7 @@ main {
 }
 
 .logo-container {
+  width: 290px;
   position: relative;
   align-items: center;
   display: flex;
